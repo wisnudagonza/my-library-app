@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My-library-app
 
 This README outlines the details of collaborating on this Ember application.
@@ -51,3 +52,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+=======
+# my-library-app
+ember js stand alone
+>>>>>>> 78767bc7bf79947298a6e74d391da0ec7f2955d7
