@@ -5,9 +5,9 @@ export default Ember.Route.extend({
     return this.store.findRecord('library', params.id);
  	}, 
  	actions:{
- 		updateLibrary: function(library){
+ 		saveLibrary: function(newLibrary){
  			var _that = this; 
- 			library.save().then(function(){
+ 			newLibrary.save().then(function(){
  				_that.transitionTo('libraries');
  			});
  		}, 
