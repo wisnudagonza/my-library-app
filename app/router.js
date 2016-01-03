@@ -12,7 +12,8 @@ Router.map(function() {
     this.route('invitations');
     this.route('contacts', function(){
       this.route('new');
-    });
+    });    
+    this.route('seeder');
   });
 
   this.route('libraries', function(){
